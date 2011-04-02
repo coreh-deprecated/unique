@@ -250,11 +250,8 @@ exports.Tree = class Tree
     
 exports.__test = () ->    
   class Element
-    @uuid = 0
-    getUUID: ->
-      @__uuid
     constructor: ->
-      @__uuid = Element.uuid++;
+  require('uuid').patch Element 
     
   e1 = new Element
   e2 = new Element
