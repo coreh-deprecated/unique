@@ -1,5 +1,3 @@
-exports ?= window ?= this
-
 exports.UUID = class UUID
   # ## Generating a UUID
   # A UUID is a string of 32 hex digits, used to uniquely identify an object.

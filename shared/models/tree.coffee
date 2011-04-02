@@ -1,5 +1,4 @@
 # On this file, trees are implemented.
-exports ?= window ?= this
   
 # # Trees
 # Trees are collections of elements organized on a hierarchy. The tree structure starts with
